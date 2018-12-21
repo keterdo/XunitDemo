@@ -7,22 +7,28 @@ package DemoXunit;
  */
 public class Shopping {
 
+    Login login = new Login();
     Products pro = null;
 
     /**
      * 通过ID查找商品价格
      * @param proId 商品ID
-     * @return 商品价格 ； -1 没有此商品；
+     * @return 商品价格 ； -1 没有此商品；-2 未登录
      */
     public int getPrice(int proId){
+        if(login.isLogin == true){
+            if (proId < 0 ){ //1
+                return -1;
+            }else{
+                Products p= Products.getPro(proId);
 
-        if (proId < 0 ){ //1
-
-            return -1;
+                return p.getPrice();
+            }
         }else{
-            Products p= Products.getPro(proId);
-            return p.getPrice();
+
+            return -2;
         }
+
 
     }
 
@@ -91,6 +97,13 @@ public class Shopping {
         }else{
             return 0;
         }
+    }
+
+    public static void main(String[] args){
+        Shopping shopping = new Shopping();
+        Login login = new Login();
+        login.userLogin("","123456");
+        shopping.getPrice(1);
     }
 
 }

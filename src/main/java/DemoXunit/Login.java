@@ -7,6 +7,7 @@ package DemoXunit;
  */
 public class Login {
 
+    public static boolean isLogin = false;
 
     /**
      * 模拟登陆校验方法
@@ -22,10 +23,12 @@ public class Login {
 
         }else if (name == "admin" || name.equals("admin")){
             System.out.println("管理员");
+            isLogin = true;
             return "欢迎管理员";
 
         }else{
             System.out.println("正常用户");
+            isLogin = false;
             return "欢迎"+name;
 
         }
