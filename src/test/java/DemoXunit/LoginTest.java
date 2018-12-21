@@ -16,7 +16,7 @@ public class LoginTest {
     Login login = new Login();
 
 
-    @Test(dataProvider = "getData",dataProviderClass= GenrateData.class)
+    @Test(dataProvider = "getUsers",dataProviderClass= GenrateData.class)
     public void testLogin(String name, String pwd, String expect){
 
         String actual = login.userLogin(name,pwd);
@@ -25,9 +25,9 @@ public class LoginTest {
 
     }
 
-    @Test(dependsOnMethods={"testLogin"})
-    public void test2(){
-
-    }
+//    @Test(dependsOnMethods={"testLogin"})
+//    public void test2(){
+//
+//    }
 
 }

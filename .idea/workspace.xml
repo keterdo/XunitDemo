@@ -2,11 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e618add-38dc-49f2-bc25-12cf5d0fd093" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DemoXunit/ShoppingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DemoXunit/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DemoXunit/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DemoXunit/Shopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DemoXunit/Shopping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DemoXunit/ShoppingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Data/GenrateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Data/GenrateData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoXunit/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoXunit/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DemoXunit/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DemoXunit/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DemoXunit/Shopping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DemoXunit/Shopping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Data/GenrateData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Data/GenrateData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoXunit/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DemoXunit/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-DemoXunit.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-DemoXunit.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +43,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -31,8 +52,8 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="150">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -58,17 +79,17 @@
       <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DemoXunit/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="259">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shopping.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Shopping.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DemoXunit/Shopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+            <state relative-caret-position="100">
+              <caret line="77" column="48" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -76,8 +97,8 @@
       <file leaf-file-name="Products.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DemoXunit/Products.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-341">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="150">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="e#1280#1281#0" expanded="true" />
                 <element signature="e#1308#1309#0" expanded="true" />
@@ -91,10 +112,24 @@
       <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DemoXunit/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="189">
+              <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DemoXunit/ShoppingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1780#1781#0" expanded="true" />
+                <element signature="e#1894#1895#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,8 +138,8 @@
       <file leaf-file-name="GenrateData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Data/GenrateData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="202">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -130,11 +165,12 @@
         <option value="$PROJECT_DIR$/src/main/java/DemoXunit/LoginDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/DemoXunit/Products.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/DemoXunit/LoginTest.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Data/GenrateData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DemoXunit/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/DemoXunit/Shopping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DemoXunit/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Data/GenrateData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DemoXunit/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DemoXunit/ShoppingTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -239,7 +275,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion.Network" />
@@ -256,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Shopping">
+  <component name="RunManager" selected="TestNG./Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml">
     <configuration name="Shopping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DemoXunit.Shopping" />
       <module name="XunitDemo" />
@@ -286,6 +322,93 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="ShoppingTest.testS" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="XunitDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DemoXunit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="DemoXunit" />
+      <option name="MAIN_CLASS_NAME" value="DemoXunit.ShoppingTest" />
+      <option name="METHOD_NAME" value="testS" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ShoppingTest.testShopping" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="XunitDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DemoXunit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="DemoXunit" />
+      <option name="MAIN_CLASS_NAME" value="DemoXunit.ShoppingTest" />
+      <option name="METHOD_NAME" value="testShopping" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ShoppingTest.testShoppings" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="XunitDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DemoXunit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="DemoXunit" />
+      <option name="MAIN_CLASS_NAME" value="DemoXunit.ShoppingTest" />
+      <option name="METHOD_NAME" value="testShoppings" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="XunitDemo" />
@@ -335,11 +458,17 @@
     <list>
       <item itemvalue="TestNG./Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml" />
       <item itemvalue="Application.Shopping" />
+      <item itemvalue="TestNG.ShoppingTest.testShopping" />
+      <item itemvalue="TestNG.ShoppingTest.testShoppings" />
+      <item itemvalue="TestNG.ShoppingTest.testS" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Shopping" />
         <item itemvalue="TestNG./Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml" />
+        <item itemvalue="TestNG.ShoppingTest.testS" />
+        <item itemvalue="TestNG.ShoppingTest.testShopping" />
+        <item itemvalue="TestNG.ShoppingTest.testShoppings" />
+        <item itemvalue="Application.Shopping" />
       </list>
     </recent_temporary>
   </component>
@@ -357,25 +486,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.19 at 16h 34m 22s.xml">
+    <history-entry file="ShoppingTest_testShoppings - 2018.12.21 at 17h 52m 06s.xml">
+      <configuration name="ShoppingTest.testShoppings" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.21 at 17h 55m 55s.xml">
       <configuration name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.19 at 16h 52m 20s.xml">
+    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.21 at 17h 56m 20s.xml">
       <configuration name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.19 at 16h 53m 58s.xml">
+    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.21 at 17h 56m 41s.xml">
       <configuration name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.19 at 18h 10m 55s.xml">
+    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.21 at 17h 57m 37s.xml">
       <configuration name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.20 at 16h 44m 49s.xml">
+    <history-entry file="ShoppingTest_testShopping - 2018.12.21 at 18h 00m 25s.xml">
+      <configuration name="ShoppingTest.testShopping" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.21 at 18h 00m 44s.xml">
       <configuration name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.20 at 16h 48m 41s.xml">
-      <configuration name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml" configurationId="TestNG" />
+    <history-entry file="ShoppingTest_testS - 2018.12.21 at 18h 08m 40s.xml">
+      <configuration name="ShoppingTest.testS" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.20 at 16h 49m 12s.xml">
+    <history-entry file="ShoppingTest_testS - 2018.12.21 at 18h 09m 46s.xml">
+      <configuration name="ShoppingTest.testS" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_qitmac000442_Project_projects_xunit_testng_XunitDemo_testng_xml - 2018.12.21 at 18h 11m 42s.xml">
       <configuration name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -484,41 +622,17 @@
     <entry file="file://$PROJECT_DIR$/test-output/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DemoXunit/ShoppingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DemoXunit/Shopping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Data/GenrateData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DemoXunit/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DemoXunit/Products.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="e#1280#1281#0" expanded="true" />
             <element signature="e#1308#1309#0" expanded="true" />
@@ -528,32 +642,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DemoXunit/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="259">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DemoXunit/Shopping.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Data/GenrateData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+        <state relative-caret-position="202">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DemoXunit/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DemoXunit/ShoppingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1780#1781#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="Copyright.UI">
         <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -586,6 +753,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>XunitDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -600,6 +780,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

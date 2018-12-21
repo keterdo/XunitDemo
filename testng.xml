@@ -2,11 +2,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo">
+        <parameter name="aa" value="a"></parameter>
+        <parameter name="bb" value="b"></parameter>
         <classes>
-            <class name="DemoXunit.LoginTest">
+            <!--<class name="DemoXunit.LoginTest">-->
+                <!--<methods>-->
+                    <!--<include name="testLogin"></include>-->
+                <!--</methods>-->
+            <!--</class>-->
+
+            <class name="DemoXunit.ShoppingTest">
                 <methods>
-                    <include name="testLogin"></include>
-                    <!--<include name="test2"></include>-->
+                    <!--<include name="testShopping" ></include>-->
+                    <include name="testS"></include>
                 </methods>
             </class>
         </classes>

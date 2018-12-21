@@ -28,8 +28,6 @@ public class Shopping {
 
             return -2;
         }
-
-
     }
 
 
@@ -37,18 +35,21 @@ public class Shopping {
      * 判断库存数量，购买商品
      * @param proId
      * @param count 购买数量
-     * @return 0 库存不足； 1 购买成功；
+     * @return 0 库存不足； 1 购买成功；-1 未登录；
      */
     public int buy(int proId, int count){
+        if(login.isLogin == true){
+            pro = getPro(proId);
+            int proCount = pro.getCount();
 
-        pro = getPro(proId);
-        int proCount = pro.getCount();
-
-        if(proCount >= count ){
-            pro.setCount(proCount - count );
-            return 1;
+            if(proCount >= count ){
+                pro.setCount(proCount - count );
+                return 1;
+            }else{
+                return 0;
+            }
         }else{
-            return 0;
+            return -1;
         }
     }
 
@@ -59,23 +60,27 @@ public class Shopping {
      */
     public Products getPro(int proId){
 
-        if(proId <= 0){
 
-            return null;
-        }else{
-            return Products.getPro(proId);
-        }
+            if (proId <= 0) {
+
+                return null;
+            } else {
+                return Products.getPro(proId);
+            }
 
     }
 
 
     /**
-     *
+     * buy的正确打开方式
      * @param proId
      * @param count
-     * @return
+     * @return  -2 未登录；-1 购买数量<=0；1 购买成功; 0 库存不足
      */
     public int buys(int proId, int count){
+        if(login.isLogin == false){
+            return -2;
+        }
         //欲购买数量是否大于0
         if(count <= 0){
             return -1;
@@ -92,7 +97,6 @@ public class Shopping {
             }else{
                 pro.setCount(0);
             }
-
             return 1;
         }else{
             return 0;

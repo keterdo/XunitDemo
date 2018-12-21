@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
   <test thread-count="5" name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo(failed)">
     <classes>
-      <class name="DemoXunit.LoginTest">
+      <class name="DemoXunit.ShoppingTest">
         <methods>
-          <include name="testLogin" invocation-numbers="0"/>
+          <include name="testShopping" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- DemoXunit.LoginTest -->
+      </class> <!-- DemoXunit.ShoppingTest -->
     </classes>
   </test> <!-- /Users/qitmac000442/Project/projects/xunit/testng/XunitDemo(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

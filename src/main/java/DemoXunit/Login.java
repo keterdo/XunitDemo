@@ -18,7 +18,8 @@ public class Login {
     public String userLogin(String name,String pwd){
 
         if(name == null || name.equals("") || pwd ==null || pwd.equals("")){
-            System.out.println("为空判断");
+            System.out.println("用户名或密码为空");
+            isLogin = false;
             return "用户名或密码不能为空";
 
         }else if (name == "admin" || name.equals("admin")){
@@ -28,7 +29,7 @@ public class Login {
 
         }else{
             System.out.println("正常用户");
-            isLogin = false;
+            isLogin = true;
             return "欢迎"+name;
 
         }
