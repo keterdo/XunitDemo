@@ -31,7 +31,12 @@ public class Login {
             System.out.println("正常用户");
             isLogin = true;
             return "欢迎"+name;
-
         }
     }
+
+    public static void main(String[] args){
+        Login login = new Login();
+        login.userLogin("","");
+    }
+
 }

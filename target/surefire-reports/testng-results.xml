@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="214" started-at="2018-12-23T08:49:37Z" finished-at="2018-12-23T08:49:37Z">
+    <groups>
+    </groups>
+    <test name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo" duration-ms="214" started-at="2018-12-23T08:49:37Z" finished-at="2018-12-23T08:49:37Z">
+      <class name="TestXunit.LoginTest">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestXunit.LoginTest@4ec6a292]" name="testLogin" duration-ms="38" started-at="2018-12-23T08:49:37Z" data-provider="getUsers" finished-at="2018-12-23T08:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhangsan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[欢迎zhangsan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestXunit.LoginTest@4ec6a292]" name="testLogin" duration-ms="9" started-at="2018-12-23T08:49:37Z" data-provider="getUsers" finished-at="2018-12-23T08:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lisi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestXunit.LoginTest@4ec6a292]" name="testLogin" duration-ms="19" started-at="2018-12-23T08:49:37Z" data-provider="getUsers" finished-at="2018-12-23T08:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestXunit.LoginTest@4ec6a292]" name="testLogin" duration-ms="6" started-at="2018-12-23T08:49:37Z" data-provider="getUsers" finished-at="2018-12-23T08:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[欢迎管理员]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- TestXunit.LoginTest -->
+    </test> <!-- /Users/qitmac000442/Project/projects/xunit/testng/XunitDemo -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

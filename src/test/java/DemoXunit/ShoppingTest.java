@@ -52,7 +52,7 @@ public class ShoppingTest {
      * @param shoppingExpect
      */
     @Test(dataProvider = "getUsersAndPros", dataProviderClass = GenrateData.class)  //parallel = true
-    public void testShoppings(String name, String pwd, String loginExpect, int proId, int count, int shoppingExpect){
+    public void testLoginAndShopping(String name, String pwd, String loginExpect, int proId, int count, int shoppingExpect){
         String actual = login.userLogin(name,pwd);
         Assert.assertEquals(actual, loginExpect);
         int results = shopping.buys(proId,count);
@@ -69,6 +69,31 @@ public class ShoppingTest {
         System.out.println(param1+param2);
     }
 
+
+
+    /**
+     * 测试数据准备过程
+     * @param name
+     * @param pwd
+     * @param loginExpect
+     * @param proId
+     * @param count
+     * @param shoppingExpect
+     */
+    @Test(dataProvider = "getUsersAndPro3", dataProviderClass = GenrateData.class)  //parallel = true
+    public void testDatas(String name, String pwd, String loginExpect, int proId, int count, int shoppingExpect){
+        //登录
+        String actual = login.userLogin(name,pwd);
+        Assert.assertEquals(actual, loginExpect);
+        Products pro = Products.getPro(proId);
+        //如果测试中，导致商品库存减少，如果预期结果需要购买成功，则强制设置该商品库存充足
+        if(shoppingExpect == 1 && pro.getCount() < count){
+            pro.setCount(count);
+        }
+        //执行购买流程
+        int results = shopping.buys(proId,count);
+        Assert.assertEquals(results,shoppingExpect);
+    }
 
 
 }

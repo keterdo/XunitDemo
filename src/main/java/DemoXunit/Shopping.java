@@ -8,7 +8,7 @@ package DemoXunit;
 public class Shopping {
 
     Login login = new Login();
-    Products pro = null;
+    Products pro;
 
     /**
      * 通过ID查找商品价格
@@ -17,7 +17,7 @@ public class Shopping {
      */
     public int getPrice(int proId){
         if(login.isLogin == true){
-            if (proId < 0 ){ //1
+            if (proId <= 0 ){ //1
                 return -1;
             }else{
                 Products p= Products.getPro(proId);
@@ -42,7 +42,7 @@ public class Shopping {
             pro = getPro(proId);
             int proCount = pro.getCount();
 
-            if(proCount >= count ){
+            if(proCount > count ){  //
                 pro.setCount(proCount - count );
                 return 1;
             }else{
@@ -77,29 +77,30 @@ public class Shopping {
      * @param count
      * @return  -2 未登录；-1 购买数量<=0；1 购买成功; 0 库存不足
      */
-    public int buys(int proId, int count){
-        if(login.isLogin == false){
+    public int buys(int proId, int count) {
+        if (login.isLogin == false) {
             return -2;
-        }
-        //欲购买数量是否大于0
-        if(count <= 0){
-            return -1;
-        }
+        } else{
+                //欲购买数量是否大于0
+                if (count <= 0) {
+                    return -1;
+                }
 
-        pro = getPro(proId);
-        int proCount = pro.getCount();
+            pro = getPro(proId);
+            int proCount = pro.getCount();
 
-        //库存充盈，可以购买
-        if(proCount >= count ){
-            //购买成功，减少对应库存数，且库存最低为0
-            if((proCount - count) >= 0) {
-                pro.setCount(proCount - count);
-            }else{
-                pro.setCount(0);
+            //库存充盈，可以购买
+            if (proCount >= count) {
+                //购买成功，减少对应库存数，且库存最低为0
+                if ((proCount - count) >= 0) {
+                    pro.setCount(proCount - count);
+                } else {
+                    pro.setCount(0);
+                }
+                return 1;
+            } else {
+                return 0;
             }
-            return 1;
-        }else{
-            return 0;
         }
     }
 

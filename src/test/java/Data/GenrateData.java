@@ -1,5 +1,6 @@
 package Data;
 
+import DemoXunit.Products;
 import org.testng.annotations.DataProvider;
 
 /**
@@ -41,6 +42,18 @@ public class GenrateData {
         return new Object[][]{
                 {"","","用户名或密码不能为空",1,1,-2},
                 {"login","123456","欢迎login",2,1,1}
+        };
+    }
+
+    /**
+     * 用户&商品测试数据
+     * @return{用户名,密码,预期登录结果,商品ID,购买数量,预期购买结果}
+     */
+    @DataProvider
+    public Object[][] getUsersAndPro3(){
+        return new Object[][]{
+                {"login","123456","欢迎login",3,1,1},
+                {"login","123456","欢迎login",3,1,1}
         };
     }
 }
